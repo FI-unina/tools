@@ -1,6 +1,6 @@
 ## Installazione della toolchain MinGW-64 (include il compilatore ``gcc``)
 
-1. Scaricare e installare il pacchetto **MSYS2** (LINK: [https://github.com/msys2/msys2-installer/releases/download/2023-05-26/msys2-x86_64-20230526.exe](https://github.com/msys2/msys2-installer/releases/download/2023-05-26/msys2-x86_64-20230526.exe)). Nella fase finale, spuntare l'esecuzione
+1. Scaricare e installare l'ultima versione disponibile del pacchetto **MSYS2** (LINK: [https://github.com/msys2/msys2-installer/releases](https://github.com/msys2/msys2-installer/releases), e cliccare sulla voce *Assets*). Nella fase finale, spuntare l'esecuzione
 di *MSYS2* (``Run MSYS2 now``).
 
 2. Si aprirà un terminale dove bisogna digitare i seguenti comandi:
@@ -27,8 +27,8 @@ di *MSYS2* (``Run MSYS2 now``).
 
 > **_NOTE:_**  *VSCodium* è una distribuzione con licenza libera dell'editor *VSCode* di Microsoft. *VSCode* contiene funzionalità di telemetria e tracciamento, quindi scegliere la versione da installare a propria discrezione. I due IDE sono equivalenti! L'autocompletamento del codice attraverso l'uso delle estensioni disponibili non è attualmente supportato.
 
-E' possibile scaricare l'installer di *VSCodium* utilizzando il seguente link:
-[https://github.com/VSCodium/vscodium/releases/download/1.81.1.23222/VSCodium-x64-1.81.1.23222.msi](https://github.com/VSCodium/vscodium/releases/download/1.81.1.23222/VSCodium-x64-1.81.1.23222.msi)
+E' possibile scaricare l'ultima version dell'installer di *VSCodium* utilizzando il seguente link
+[https://github.com/VSCodium/vscodium/releases/](https://github.com/VSCodium/vscodium/releases/), andando a scaricare la versione per *Windows*, tipologia *System Installer*.
 
 ### Installare le estensioni C 
 
