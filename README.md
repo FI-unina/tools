@@ -5,3 +5,5 @@
 - Windows: [Windows](Windows)
 - Linux: [Linux](Linux)
 - MacOSX: [MacOS](MacOS)
+- Prova installazione VSCodium
+  
