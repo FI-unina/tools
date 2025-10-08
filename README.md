@@ -1,4 +1,4 @@
-# Strumenti utilizzati durante il corso di Fondamenti di Informatica
+# Strumenti utilizzati durante il corso di Laboratorio di Informatica
 
 ### VSCodium
 
