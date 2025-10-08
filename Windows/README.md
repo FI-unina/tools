@@ -31,7 +31,7 @@
 > **_NOTE:_**  *VSCodium* è una distribuzione con licenza libera dell'editor *VSCode* di Microsoft. *VSCode* contiene funzionalità di telemetria e tracciamento, quindi scegliere la versione da installare a propria discrezione. I due IDE sono equivalenti! L'autocompletamento del codice attraverso l'uso delle estensioni disponibili non è attualmente supportato.
 
 E' possibile scaricare l'ultima version dell'installer di *VSCodium* utilizzando il seguente link
-[https://github.com/VSCodium/vscodium/releases/](https://github.com/VSCodium/vscodium/releases/), andando a scaricare la versione per *Windows*, tipologia *System Installer*.
+[https://github.com/VSCodium/vscodium/releases/](https://github.com/VSCodium/vscodium/releases/), andando a scaricare la versione per *Windows*, tipologia *System Installer*. Anche in questo caso si deve scegliere la versione per l'architettura specifica (*ARM* oppure *Intel*).
 
 ### Installare le estensioni C 
 
