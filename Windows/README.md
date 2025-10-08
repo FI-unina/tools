@@ -2,7 +2,7 @@
 
 1. Scaricare e installare l'ultima versione disponibile del pacchetto **MSYS2** (LINK: [https://github.com/msys2/msys2-installer/releases](https://github.com/msys2/msys2-installer/releases), e cliccare sulla prima voce *Assets*). Selezionare il file di installazione: ci sono due scelte possibili: *msys2-arm64-20250830.exe* (se si possiede processore *ARM*) oppure *msys2-x86_64-20250830.exe* (se si possiede processore *Intel*). Nella fase finale, spuntare l'esecuzione di *MSYS2* (``Run MSYS2 now``). Se non compare la spunta basta avviare la procedura di installazione cliccando due volte sul file scaricato. In genere si trova nella cartella Download.
 
-2. Dopo il doppio clic si aprirà una finestra guidata. si proceda con l’installazione accettando le opzioni predefinite e cliccando su **Avanti** quando richiesto.
+2. Dopo il doppio clic si aprirà una finestra guidata. Si proceda con l’installazione accettando le opzioni predefinite e cliccando su **Avanti** quando richiesto.
 
 3. Al termine dell'installazione la finestra aperta in precedenza si chiuderà e si aprirà un terminale dove di volta in volta bisogna digitare i seguenti comandi:
 
