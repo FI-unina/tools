@@ -1,12 +1,10 @@
 ## Installazione della toolchain MinGW-64 (include il compilatore ``gcc``)
 
-1. Scaricare e installare l'ultima versione disponibile del pacchetto **MSYS2** (LINK: [https://github.com/msys2/msys2-installer/releases](https://github.com/msys2/msys2-installer/releases), e cliccare sulla prima voce *Assets*). Selezionare il file di installazione: ci sono due scelte possibili: msys2-arm64-20250830.exe (se si possiede processore ARM) oppure msys2-x86_64-20250830.exe (se si possiede processore Intel).
+1. Scaricare e installare l'ultima versione disponibile del pacchetto **MSYS2** (LINK: [https://github.com/msys2/msys2-installer/releases](https://github.com/msys2/msys2-installer/releases), e cliccare sulla prima voce *Assets*). Selezionare il file di installazione: ci sono due scelte possibili: *msys2-arm64-20250830.exe* (se si possiede processore *ARM*) oppure *msys2-x86_64-20250830.exe* (se si possiede processore *Intel*). Nella fase finale, spuntare l'esecuzione di *MSYS2* (``Run MSYS2 now``). Se non compare la spunta basta avviare la procedura di installazione cliccando due volte sul file scaricato. In genere si trova nella cartella Download.
 
-Nella fase finale, spuntare l'esecuzione di *MSYS2* (``Run MSYS2 now``). Se non compare la spunta basta avviare la procedura di installazione cliccando due volte sul file scaricato. In genere si trova nella cartella Download.
+2. Dopo il doppio clic si aprirà una finestra guidata. si proceda con l’installazione accettando le opzioni predefinite e cliccando su **Avanti** quando richiesto.
 
-3. Dopo il doppio clic si aprirà una finestra guidata. si proceda con l’installazione accettando le opzioni predefinite e cliccando su **Avanti** quando richiesto.
-
-4. Al termine dell'installazione la finestra aperta in precedenza si chiuderà e si aprirà un terminale dove di volta in volta bisogna digitare i seguenti comandi:
+3. Al termine dell'installazione la finestra aperta in precedenza si chiuderà e si aprirà un terminale dove di volta in volta bisogna digitare i seguenti comandi:
 
 	```
 	pacman -S --needed base-devel
@@ -16,15 +14,15 @@ Nella fase finale, spuntare l'esecuzione di *MSYS2* (``Run MSYS2 now``). Se non 
 
 	si scelga l'opzione di default per tutti i pacchetti da installare (digitando INVIO), successivamente digitare ``Y``, quando richiesto, e poi INVIO.
 
-5. Al termine dell'istallazione basterà chiudere il terminale come una normale applicazione.
+4. Al termine dell'istallazione basterà chiudere il terminale come una normale applicazione.
 
-6. Aggiungere la directory ``C:\msys64\ucrt64\bin`` (questo è il percordo di default) al ``PATH`` di sistema di Windows
+5. Aggiungere la directory ``C:\msys64\ucrt64\bin`` (questo è il percordo di default) al ``PATH`` di sistema di Windows
 
 	* Nella barra di ricerca, aprire le impostazioni e cercare ``Modifica variabili d'ambiente per l'account``
 
 	* Nella sezione ``Variabili dell'utente per ...``, cliccare sulla variabile d'ambiente ``Path``, poi il tasto ``Modifica...``, successivamente il tasto ``Nuovo`` per aggiungere la variabile ``C:\msys64\ucrt64\bin``. Cliccare su ``Ok`` per rendere effettive le modifiche
 
-7. Controllare se l'installazione del compilatore è andata a buon fine, digitando in un nuovo prompt di sistema ``gcc --version``. L'output dovrebbe mostrare, tra le altre informazioni, la versione del compilatore installata.
+6. Controllare se l'installazione del compilatore è andata a buon fine, digitando in un nuovo prompt di sistema ``gcc --version``. L'output dovrebbe mostrare, tra le altre informazioni, la versione del compilatore installata.
 
 ## Installazione e configurazione VSCodium 
 
