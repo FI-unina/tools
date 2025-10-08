@@ -22,6 +22,8 @@
 
 	* Nella sezione ``Variabili dell'utente per ...``, cliccare sulla variabile d'ambiente ``Path``, poi il tasto ``Modifica...``, successivamente il tasto ``Nuovo`` per aggiungere la variabile ``C:\msys64\ucrt64\bin``. Cliccare su ``Ok`` per rendere effettive le modifiche
 
+![VariabiliAmbiente1.png](VariabiliAmbiente1.png)
+
 6. Controllare se l'installazione del compilatore è andata a buon fine, digitando in un nuovo prompt di sistema ``gcc --version``. L'output dovrebbe mostrare, tra le altre informazioni, la versione del compilatore installata.
 
 ## Installazione e configurazione VSCodium 
