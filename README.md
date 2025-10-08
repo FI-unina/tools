@@ -4,4 +4,4 @@
 
 - Windows: [Windows](Windows)
 - Linux: [Linux](Linux)
-- MacOSX: [MacOSX](MacOSX)
+- MacOSX: [MacOS](MacOS)
