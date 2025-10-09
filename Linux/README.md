@@ -17,7 +17,7 @@ $ sudo apt install build-essential
 
 Per architetture ``x86_64``, è possibile scaricare il pacchetto ``.rpm`` o ``.deb`` (dipendentemente dalla distribuzione Linux utilizzata) [https://github.com/VSCodium/vscodium/releases](https://github.com/VSCodium/vscodium/releases) 
 
-Per esempio, per Ubuntu e architettura x86_64 scaricare [https://github.com/VSCodium/vscodium/releases/download/1.81.1.23222/codium_1.81.1.23222_amd64.deb](https://github.com/VSCodium/vscodium/releases/download/1.81.1.23222/codium_1.81.1.23222_amd64.deb)
+Per esempio, per Ubuntu e architettura x86_64 scaricare i file ``.deb`` e installarlo tramite il comando ``dpkg -i NOMEPACCHETTO.deb``.
 
 ### Installare le estensioni C
 
