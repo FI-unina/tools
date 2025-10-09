@@ -38,20 +38,18 @@ Si faccia riferimento alla guida ufficiale: [https://mac.install.guide/commandli
 > **_NOTE:_**  *VSCodium* è una distribuzione con licenza libera dell'editor *VSCode* di Microsoft. *VSCode* contiene funzionalità di telemetria e tracciamento, quindi scegliere la versione da installare a propria discrezione. I due IDE sono equivalenti!
 
 
-Per architettura ``x86_64``, è possibile scaricare il pacchetto ``.dmg`` [https://github.com/VSCodium/vscodium/releases/download/1.81.1.23222/VSCodium.x64.1.81.1.23222.dmg](https://github.com/VSCodium/vscodium/releases/download/1.81.1.23222/VSCodium.x64.1.81.1.23222.dmg) 
-
-Per architettura ``M1/M2``, è possibile scaricare il pacchetto ``.dmg`` [https://github.com/VSCodium/vscodium/releases/download/1.81.1.23222/VSCodium.arm64.1.81.1.23222.dmg](https://github.com/VSCodium/vscodium/releases/download/1.81.1.23222/VSCodium.arm64.1.81.1.23222.dmg) 
+Per architettura ``x86_64`` e architettura ``M1/M2`` è possibile scaricare il pacchetto ``.dmg`` associato al seguente link: [https://github.com/VSCodium/vscodium/releases/](https://github.com/VSCodium/vscodium/releases/).
 
 
 ### Installare le estensioni C 
 
-Aprire VSCodium e installare l'estensioni **Code Runner** e **clangd** nella vista "Estensioni" (vedere nelle figure seguenti).
+Aprire VSCodium e installare le estensioni **Code Runner** e **clangd** nella vista "Estensioni" (vedere nelle figure seguenti).
 
 ![code-runner-extension](code-runner-extension.jpg)
 
 ![clangd-extension](clangd-extension.jpg)
 
-Una volta installate l'estensioni, configurare **Code Runner** in modo da utilizzare il terminale di default del proprio sistema operativo. A tale scopo, cliccare sul tasto impostazioni dell'estensione e poi *Impostazioni dell'Estensione (Extension Settings)*:
+Una volta installate le estensioni, configurare **Code Runner** in modo da utilizzare il terminale di default del proprio sistema operativo. A tale scopo, cliccare sul tasto impostazioni dell'estensione e poi *Impostazioni dell'Estensione (Extension Settings)*:
 
 <p align="center">
 
