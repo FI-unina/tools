@@ -6,13 +6,13 @@
 
 3. Al termine dell'installazione la finestra aperta in precedenza si chiuderà e si aprirà un terminale dove di volta in volta bisogna digitare i seguenti comandi:
 
-	```
-	pacman -S --needed base-devel
-	pacman -S --needed mingw-w64-ucrt-x86_64-toolchain 
-	pacman -S --needed mingw-w64-ucrt-x86_64-clang-tools-extra
-	```
+```
+pacman -S --needed --noconfirm base-devel
+pacman -S --needed --noconfirm mingw-w64-ucrt-x86_64-toolchain
+pacman -S --needed --noconfirm mingw-w64-ucrt-x86_64-clang-tools-extra
+```
 
-	si scelga l'opzione di default per tutti i pacchetti da installare (digitando INVIO), successivamente digitare ``Y``, quando richiesto, e poi INVIO.
+Cliccare Invio per far partire l'installazione. 
 
 4. Al termine dell'istallazione basterà chiudere il terminale come una normale applicazione.
 
