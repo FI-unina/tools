@@ -1,6 +1,6 @@
 ## Installazione della toolchain MinGW-64 (include il compilatore ``gcc``)
 
-1. Scaricare e installare l'ultima versione disponibile del pacchetto **MSYS2** (LINK: [https://github.com/msys2/msys2-installer/releases](https://github.com/msys2/msys2-installer/releases), e cliccare sulla prima voce *Assets*). Selezionare il file di installazione: ci sono due scelte possibili: *msys2-arm64-20250830.exe* (se si possiede processore *ARM*) oppure *msys2-x86_64-20250830.exe* (se si possiede processore *Intel*). Nella fase finale, spuntare l'esecuzione di *MSYS2* (``Run MSYS2 now``). Se non compare la spunta basta avviare la procedura di installazione cliccando due volte sul file scaricato. In genere si trova nella cartella Download.
+1. Scaricare e installare l'ultima versione disponibile del pacchetto **MSYS2** (LINK: [https://github.com/msys2/msys2-installer/releases](https://github.com/msys2/msys2-installer/releases), e cliccare sulla prima voce *Assets*). Selezionare il file di installazione: ci sono due scelte possibili: *msys2-arm64-YYYYMMDD.exe* (se si possiede un processore *ARM*) oppure *msys2-x86_64-YYYYMMDD.exe* (se si possiede un processore *Intel/AMD*), dove YYYYMMDD stanno ad indicare il numero di versione. Nella fase finale, spuntare l'esecuzione di *MSYS2* (``Run MSYS2 now``). Se non compare la spunta, basta avviare la procedura di installazione cliccando due volte sul file scaricato. In genere si trova nella cartella Download.
 
 2. Dopo il doppio clic si aprirà una finestra guidata. Si proceda con l’installazione accettando le opzioni predefinite e cliccando su **Avanti** quando richiesto.
 
@@ -14,13 +14,13 @@ pacman -S --needed --noconfirm mingw-w64-ucrt-x86_64-clang-tools-extra
 
 Cliccare Invio per far partire l'installazione. 
 
-4. Al termine dell'istallazione basterà chiudere il terminale come una normale applicazione.
+4. Al termine dell'installazione basterà chiudere il terminale come una normale applicazione.
 
-5. Aggiungere la directory ``C:\msys64\ucrt64\bin`` (questo è il percordo di default) al ``PATH`` di sistema di Windows
+5. Aggiungere la directory ``C:\msys64\ucrt64\bin`` (questo è il percorso di default) al ``PATH`` di sistema di Windows
 
 	* Nella barra di ricerca, aprire le impostazioni e cercare ``Modifica variabili d'ambiente per l'account``
 
-	* Nella sezione ``Variabili dell'utente per ...``, cliccare sulla variabile d'ambiente ``Path``, poi il tasto ``Modifica...``, successivamente il tasto ``Nuovo`` per aggiungere la variabile ``C:\msys64\ucrt64\bin``. Cliccare su ``Ok`` per rendere effettive le modifiche
+	* Nella sezione ``Variabili dell'utente per ...``, cliccare sulla variabile d'ambiente ``Path``, poi sul tasto ``Modifica...``, successivamente sul tasto ``Nuovo`` per aggiungere la variabile ``C:\msys64\ucrt64\bin``. Cliccare su ``Ok`` per rendere effettive le modifiche
 
 ![VariabiliAmbiente1.png](VariabiliAmbiente1.png)
 ![VariabiliAmbiente2.png](VariabiliAmbiente2.png)
@@ -32,20 +32,20 @@ Cliccare Invio per far partire l'installazione.
 
 ### Installare *VSCodium*
 
-> **_NOTE:_**  *VSCodium* è una distribuzione con licenza libera dell'editor *VSCode* di Microsoft. *VSCode* contiene funzionalità di telemetria e tracciamento, quindi scegliere la versione da installare a propria discrezione. I due IDE sono equivalenti! L'autocompletamento del codice attraverso l'uso delle estensioni disponibili non è attualmente supportato.
+> **_NOTE:_**  *VSCodium* è una distribuzione con licenza libera dell'editor *VSCode* di Microsoft. *VSCode* contiene funzionalità di telemetria e tracciamento, quindi si può scegliere la versione da installare a propria discrezione. I due IDE sono equivalenti! L'autocompletamento del codice attraverso l'uso delle estensioni disponibili non è attualmente supportato.
 
-E' possibile scaricare l'ultima version dell'installer di *VSCodium* utilizzando il seguente link
+E' possibile scaricare l'ultima versione dell'installer di *VSCodium* utilizzando il seguente link
 [https://github.com/VSCodium/vscodium/releases/](https://github.com/VSCodium/vscodium/releases/), andando a scaricare la versione per *Windows*, tipologia *System Installer*. Anche in questo caso si deve scegliere la versione per l'architettura specifica (*ARM* oppure *Intel*).
 
 ### Installare le estensioni C 
 
-Aprire VSCodium e installare l'estensioni **Code Runner** e **clangd** nella vista "Estensioni" (vedere nelle figure seguenti).
+Aprire VSCodium e installare le estensioni **Code Runner** e **clangd** nella vista "Estensioni" (vedere le estensioni seguenti).
 
 ![code-runner-extension](code-runner-extension.jpg)
 
 ![clangd-extension](clangd-extension.jpg)
 
-Una volta installate l'estensioni, configurare **Code Runner** in modo da utilizzare il terminale di default del proprio sistema operativo. A tale scopo, cliccare sul tasto impostazioni dell'estensione e poi *Impostazioni dell'Estensione (Extension Settings)*:
+Una volta installate le estensioni, configurare **Code Runner** in modo da utilizzare il terminale dell'estensione del proprio sistema operativo. A tale scopo, cliccare sul tasto impostazioni dell'estensione e poi *Impostazioni dell'Estensione (Extension Settings)*:
 
 <p align="center">
 
